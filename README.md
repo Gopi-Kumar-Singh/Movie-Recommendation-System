@@ -28,7 +28,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Create a new pull request.
 
 ## Additional Files
-- The `Movie_Recommendation_System.ipynb`,'tmdb_5000_credits.csv' and 'tmdb_5000_movies.csv' files are provided for preprocessing the data.
+- The `Movie_Recommendation_System.ipynb`,`tmdb_5000_credits.csv` and `tmdb_5000_movies.csv` files are provided for preprocessing the data.
 - The `Similarities.pkl` file is not uploaded due to its large size. You can generate it locally after preprocessing the data.
 
 ## License
