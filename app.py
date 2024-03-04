@@ -12,12 +12,12 @@ movies = pd.read_csv('NecessaryData/Preprocessed_Movie_Data.csv')
 moviesAvailable = movies['title'].values
 similarity = pickle.load(open('NecessaryData/similarities.pkl', 'rb'))
 
-api_key = "970bc089e3a26d22dd7a478ab38eb1ad"
+api_key = "xxxxxxxxxxxxxx"
 root_path = "https://image.tmdb.org/t/p/original"
 
 
 def fetch_poster(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=970bc089e3a26d22dd7a478ab38eb1ad&language=en-US".format(movie_id)
+    url = "https://api.themoviedb.org/3/movie/{}?api_key={api_key}&language=en-US".format(movie_id)
     # url="https://api.themoviedb.org/3/movie/19995?api_key=970bc089e3a26d22dd7a478ab38eb1ad&language=en-US"
     time.sleep(0.02)
     header = {
